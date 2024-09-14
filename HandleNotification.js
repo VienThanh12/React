@@ -1,3 +1,9 @@
+/*
+I am building a notification function where a notification appears each time 
+a user clicks the like or dislike button. 
+The more clicks, the more notifications will show up. After 3 seconds, 
+the notifications will start disappearing one by one, with the first one disappearing first.
+*/
 import React, { useState, useEffect } from 'react';
 
 const NotificationSystem = () => {
